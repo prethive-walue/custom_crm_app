@@ -1,0 +1,85 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"Vm1zKzadhT\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Custom CRM Reports</b></span>\",\"col\":12}},{\"id\":\"k9w0v6wTpd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CRM Custom Report\",\"col\":4}},{\"id\":\"pL8mNxKwQr\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Hj3kLmNoPq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Quick Links</b></span>\",\"col\":12}},{\"id\":\"Qr5tUvWxYz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CRM Lead\",\"col\":3}},{\"id\":\"Ab2cDeFgHi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CRM Deal\",\"col\":3}}]",
+ "creation": "2024-12-30 12:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "chart-line",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Custom Reports",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "CRM Custom Report",
+   "link_count": 0,
+   "link_to": "CRM Custom Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CRM Lead",
+   "link_count": 0,
+   "link_to": "CRM Lead",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CRM Deal",
+   "link_count": 0,
+   "link_to": "CRM Deal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-12-30 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Custom Crm App",
+ "name": "Custom Reports",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 10.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "",
+   "label": "CRM Custom Report",
+   "link_to": "CRM Custom Report",
+   "stats_filter": "",
+   "type": "Report"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "CRM Lead",
+   "link_to": "CRM Lead",
+   "stats_filter": "",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "CRM Deal",
+   "link_to": "CRM Deal",
+   "stats_filter": "",
+   "type": "DocType"
+  }
+ ],
+ "title": "Custom Reports"
+}
