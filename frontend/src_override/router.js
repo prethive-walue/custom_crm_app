@@ -85,11 +85,11 @@ const routes = [
     component: () => import('@/pages/CallLogs.vue'),
   },
   {
-    alias: '/reports',
-    path: '/Reports',
+    path: '/reports',
     name: 'Reports',
-    component: () => import('@/pages/Reports.vue'),
-    meta: { scrollPos: { top: 0, left: 0 } },
+    beforeEnter() {
+      window.location.href = '/app/query-report/CRM%20Custom%20Report'
+    },
   },
   {
     path: '/data-import',

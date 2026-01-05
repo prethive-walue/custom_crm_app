@@ -78,7 +78,16 @@ export default defineConfig(async ({ mode }) => {
         'prosemirror-view',
         'lowlight',
         'interactjs',
+        'frappe-ui',
       ],
+      // Exclude frappe-ui from optimization to prevent deep import resolution issues
+      exclude: ['frappe-ui/src/resources/listResource'],
+    },
+    build: {
+      rollupOptions: {
+        // Externalize the problematic deep import
+        external: (id) => id.includes('frappe-ui/src/resources/listResource'),
+      },
     },
   }
 
