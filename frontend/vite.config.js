@@ -67,6 +67,8 @@ export default defineConfig(async ({ mode }) => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src'),
+        // Redirect deep frappe-ui imports to the main package
+        'frappe-ui/src/resources/listResource': path.resolve(__dirname, 'node_modules/frappe-ui/src/resources/listResource.ts'),
       },
     },
     optimizeDeps: {
@@ -80,14 +82,6 @@ export default defineConfig(async ({ mode }) => {
         'interactjs',
         'frappe-ui',
       ],
-      // Exclude frappe-ui from optimization to prevent deep import resolution issues
-      exclude: ['frappe-ui/src/resources/listResource'],
-    },
-    build: {
-      rollupOptions: {
-        // Externalize the problematic deep import
-        external: (id) => id.includes('frappe-ui/src/resources/listResource'),
-      },
     },
   }
 

@@ -2,8 +2,8 @@
   <div class="video-page">
     <h1>Welcome to the Video Page</h1>
     <iframe
-      width="560"
-      height="315"
+      width="100"
+      height="100"
       src="https://www.youtube.com/embed/dQw4w9WgXcQ"
       title="YouTube video"
       frameborder="0"
