@@ -80,8 +80,9 @@ export default defineConfig(async ({ mode }) => {
         'prosemirror-view',
         'lowlight',
         'interactjs',
-        'frappe-ui',
       ],
+      // Exclude frappe-ui from pre-bundling to avoid deep import issues
+      exclude: ['frappe-ui'],
     },
   }
 

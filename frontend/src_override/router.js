@@ -87,9 +87,7 @@ const routes = [
   {
     path: '/reports',
     name: 'Reports',
-    beforeEnter() {
-      window.location.href = '/app/query-report/CRM%20Custom%20Report'
-    },
+    component: () => import('@/pages/Reports.vue'),
   },
   {
     path: '/data-import',

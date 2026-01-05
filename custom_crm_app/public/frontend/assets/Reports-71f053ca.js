@@ -1,2 +1,0 @@
-import{_ as o,b as r,c,e as t}from"./index-60fe5464.js";const a={},s={class:"video-page"};function d(l,e){return r(),c("div",s,[...e[0]||(e[0]=[t("h1",null,"Welcome to the Video Page",-1),t("iframe",{width:"100",height:"100",src:"https://www.youtube.com/embed/dQw4w9WgXcQ",title:"YouTube video",frameborder:"0",allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",allowfullscreen:""},null,-1)])])}const i=o(a,[["render",d],["__scopeId","data-v-fb6042ad"]]);export{i as default};
-//# sourceMappingURL=Reports-71f053ca.js.map
